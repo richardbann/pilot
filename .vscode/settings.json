@@ -1,17 +1,5 @@
 {
     "python.formatting.provider": "black",
     "python.linting.flake8Enabled": true,
-    "python.linting.mypyEnabled": true,
-    "sqltools.connections": [
-        {
-            "previewLimit": 50,
-            "server": "localhost",
-            "port": 5432,
-            "driver": "PostgreSQL",
-            "name": "localhost",
-            "database": "postgres",
-            "username": "postgres",
-            "password": "postgres"
-        }
-    ]
+    "python.linting.mypyEnabled": true
 }
